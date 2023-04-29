@@ -14,7 +14,7 @@ const NewsDetails = () => {
 
     // const [details, setDetails] = useState([]);
     // useEffect(() => {
-    //     fetch(`http://localhost:5000/news/${id}`)
+    //     fetch(`https://the-dragon-news-server-tapferabdullah-gmailcom.vercel.app/news/${id}`)
     //     .then(res => res.json())
     //     .then(data => setDetails(data));
     // }, [])

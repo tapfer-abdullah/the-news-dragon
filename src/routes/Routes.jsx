@@ -25,12 +25,12 @@ import TermsAndConditions from "../Pages/AuthPage/TermsAndConditions";
             {
               path: "/",
               element: <MiddleContent></MiddleContent>,
-              loader: () => fetch(`http://localhost:5000/categories/0`)
+              loader: () => fetch(`https://the-dragon-news-server-tapferabdullah-gmailcom.vercel.app/categories/0`)
             },
             {
               path: "/category/:id",
               element: <MiddleContent></MiddleContent>,
-              loader: ({params}) => fetch(`http://localhost:5000/categories/${params.id}`)
+              loader: ({params}) => fetch(`https://the-dragon-news-server-tapferabdullah-gmailcom.vercel.app/categories/${params.id}`)
             }
           ]
         }
@@ -44,7 +44,7 @@ import TermsAndConditions from "../Pages/AuthPage/TermsAndConditions";
             {
               path: "/news/:id",
               element: <ShowDetails></ShowDetails>,
-              loader: ({params}) => fetch(`http://localhost:5000/news/${params.id}`)
+              loader: ({params}) => fetch(`https://the-dragon-news-server-tapferabdullah-gmailcom.vercel.app/news/${params.id}`)
             }
           ]
         },
